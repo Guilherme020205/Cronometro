@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    background: linear-gradient(120deg, #7fffd4, #f2ff7f, #ff7f7f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: aliceblue;
+}
+div{
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 20em;
+    height: 10em;
+    text-align: center;
+    border-radius: 10px;
+}
+button{
+    height: 2.2em;
+    width: 5.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.start-bnt{
+    background-color: #7fffd4;
+    color: rgb(0, 0, 0);
+}
+.pause-bnt{
+    background-color: #f2ff7f;
+    color: rgb(0, 0, 0);
+}
+.stop-bnt{
+    background-color: #ff7f7f;
+    color: rgb(0, 0, 0);
+}
+
+
